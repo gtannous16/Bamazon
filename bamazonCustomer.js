@@ -13,9 +13,9 @@ console.log("\x1b[33m");
         return;
     }
     console.log(data)
-}));
+}))
 
-var connection = mysql.createConnection({
+var connection = mysql.createConnection({ 
     host: process.env.DB_HOST,
   
     port: 3306,
