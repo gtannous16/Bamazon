@@ -8,4 +8,4 @@ Bamazon is a node application that allows customers to purchase items. This appl
 * npm install chalk
 * npm install cli-table
 
-![bamazon](https://media.giphy.com/media/8c0RocPLFQAnw1Kg3K/giphy.gif)
+![bamazon](https://media.giphy.com/media/31Zk4a6JP3uoQRTMGn/giphy.gif)
