@@ -16,14 +16,14 @@ console.log("\x1b[33m");
 }));
 
 var connection = mysql.createConnection({
-    host: process.env.DB_HOST,
+    host:process.env.DB_HOST,
   
     port: 3306,
     
-    user: process.env.DB_USER,
+    user:process.env.DB_USER,
   
-    password: process.env.DB_PASS,
-    database: "Bamazon_DB"
+    password:process.env.DB_PASS,
+    database:"Bamazon_DB"
   });
   
   connection.connect(function(err){
@@ -71,6 +71,7 @@ function inquirerForUpdates(){
 		}
 	});
 };
+
 
 
 });
